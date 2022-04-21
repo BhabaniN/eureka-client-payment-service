@@ -5,7 +5,7 @@ spring:
     console:
       enabled: true
   application:
-    name: order-service
+    name: payment-service
   cloud:
     config:
       enabled: true
