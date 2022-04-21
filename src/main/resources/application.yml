@@ -1,0 +1,15 @@
+server:
+  port: 9192
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: order-service
+  cloud:
+    config:
+      enabled: true
+  config:
+    import: configserver:http://localhost:9196
+logging:
+  file: C:/Spring-Boot/app.log
